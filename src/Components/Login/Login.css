@@ -1,0 +1,27 @@
+.LoginPadding 
+{
+
+	height: 400px;
+	background-color: #7E57C2;
+	margin-top: 200px;
+	margin-right: 200px;
+	margin-left: 200px;
+	box-shadow:5px 5px grey;
+
+}
+
+
+.LoginText {
+	padding:10px;
+  	text-align: center;
+  	color:#fff;
+  	font-size: 27;
+
+}
+.logo{
+
+}
+.TextInput{
+
+
+}

@@ -1,14 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import Login from './Components/Login/Login';
+import LoginTab from './Components/Login/LoginTab';
 import registerServiceWorker from './registerServiceWorker';
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 
 const Rapper = () => (
   <MuiThemeProvider>
-    <Login />
+    <LoginTab />
   </MuiThemeProvider>
 );
 

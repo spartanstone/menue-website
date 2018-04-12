@@ -1,27 +1,43 @@
+.backGround{
+margin: 0 auto;
+background-image: url("../Images/LoginBg.jpg");
+background-repeat: no-repeat;
+min-height: 100%;
+min-width: 1024px;
+width: 100%;
+height: auto;
+position: fixed;
+top: 0;
+left: 0;
+z-index: -1;
+}
+
 .LoginPadding 
 {
+width: 500px;
+height: 400px;
+text-align: center;
+background-color:rgba(52,73,94,0.9);
+border-radius: 4px; 
+margin: 0 auto;
+margin-top: 200px;
 
-	height: 400px;
-	background-color: #7E57C2;
-	margin-top: 200px;
-	margin-right: 200px;
-	margin-left: 200px;
-	box-shadow:5px 5px grey;
 
 }
 
 
 .LoginText {
-	padding:10px;
+	padding:5px;
   	text-align: center;
   	color:#fff;
   	font-size: 27;
 
 }
-.logo{
-
-}
-.TextInput{
+.WelcomeText{
+	padding:2px;
+  	text-align: center;
+  	color:#fff;
+  	font-size: 40;
 
 
 }

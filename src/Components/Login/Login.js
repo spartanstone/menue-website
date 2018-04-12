@@ -10,18 +10,19 @@ import LoginForm from './LoginForm'
 class Login extends Component {
   render() {
     return (
-
-    	<div className = "LoginPadding">
-	    	<div><h1>this is the logo</h1></div>
-	    	<div className= "LoginText">
-	    	<p>Please Login to Continue</p>
-	    	<LoginForm></LoginForm>
+    	<div className = "backGround">
+	    	<div className = "LoginPadding">
+		    	<div className = "WelcomeText"><h1>Welcome To Orian</h1></div>
+		    	<div className= "LoginText">
+		    	<p>Please Login to Continue</p>
+		    	<LoginForm></LoginForm>
+		    	</div>
+		   <div className= "LoginText">
+		    	<p>Need a new account sign up</p>
+		    	
+		    	</div>
 	    	</div>
-	   <div className= "LoginText">
-	    	<p>Need a new account sign up</p>
-	    	
-	    	</div>
-    	</div>
+		</div>
 
     );
   }

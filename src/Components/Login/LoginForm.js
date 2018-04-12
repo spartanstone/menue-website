@@ -18,6 +18,7 @@ class LoginForm extends Component {
       			hintStyle={styles.errorStyle}
             floatingLabelText="Email Address"
             floatingLabelStyle={styles.errorStyle}
+            Text={styles.errorStyle}
 
     			/><br/>
            <TextField

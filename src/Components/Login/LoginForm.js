@@ -1,40 +1,28 @@
 import React, { Component } from 'react';
-import {TextField,RaisedButton } from 'material-ui';
+import {TextField,Button  } from 'material-ui';
 import './Login.css';
-import {orange500, blue50} from 'material-ui/styles/colors';
+import PropTypes from 'prop-types';
 
-const styles = {
-  errorStyle: {
-    color:blue50,
+const styles = theme => ({
+  button: {
+    margin: theme.spacing.unit,
   },
   margin: 12,
-};
+});
 class LoginForm extends Component {
+
   render() {
     return (
     	<div>
-	     	    <TextField
-      			hintText="Email"
-      			hintStyle={styles.errorStyle}
-            floatingLabelText="Email Address"
-            floatingLabelStyle={styles.errorStyle}
-            Text={styles.errorStyle}
+        <Button variant="raised" component="span" >
+          Login
+        </Button>
 
-    			/><br/>
-           <TextField
-            hintText="Password"
-            hintStyle={styles.errorStyle}
-            floatingLabelText="Password"
-            floatingLabelStyle={styles.errorStyle}
-            type="password"
-
-          /><br/>
-          <RaisedButton label="Login" primary={true} style={styles} />
-          <RaisedButton label="SighnUp" secondary={true} style={styles} />
     	</div>
 
     );
   }
 }
+
 
 export default LoginForm;

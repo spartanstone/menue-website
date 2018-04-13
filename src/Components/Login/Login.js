@@ -1,31 +1,32 @@
 import React, { Component } from 'react';
-import {Button,TextField } from 'material-ui';
+import {Tabs, Tab} from 'material-ui';
 import './Login.css';
-import {orange500, blue500} from 'material-ui/styles/colors';
+import SwipeableViews from 'react-swipeable-views';
+import LoginTab from './LoginTab';
 
-import LoginForm from './LoginForm'
-
-
+const styles = {
+  headline: {
+    fontSize: 24,
+    paddingTop: 16,
+    marginBottom: 12,
+    fontWeight: 400,
+  },
+  slide: {
+    padding: 10,
+  },
+};
 
 class Login extends Component {
+
   render() {
     return (
-    	<div className = "backGround">
-	    	<div className = "LoginPadding">
-		    	<div className = "WelcomeText"><h1>Welcome To Orian</h1></div>
-		    	<div className= "LoginText">
-		    	<p>Please Login to Continue</p>
-		    	<LoginForm></LoginForm>
-		    	</div>
-		   <div className= "LoginText">
-		    	<p>Need a new account sign up</p>
-		    	
-		    	</div>
-	    	</div>
-		</div>
+	<div className = "backGround">
+      <div>
+      <LoginTab></LoginTab>
 
+      </div>
+  	</div>
     );
   }
 }
-
 export default Login;

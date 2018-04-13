@@ -15,19 +15,18 @@ z-index: -1;
 .LoginPadding 
 {
 width: 500px;
-height: 400px;
+height: 500px;
 text-align: center;
 background-color:rgba(52,73,94,0.9);
 border-radius: 4px; 
 margin: 0 auto;
-margin-top: 200px;
+margin-top: 150px;
 
 
 }
 
 
 .LoginText {
-	padding:5px;
   	text-align: center;
   	color:#fff;
   	font-size: 27;

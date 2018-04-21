@@ -2,10 +2,10 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import MenuItem from 'material-ui/Menu/MenuItem';
-import TextField from 'material-ui/TextField';
+import {TextField,Button  } from 'material-ui';
 import {AccountCircle,Email,Lock} from '@material-ui/icons';
 import Input, { InputAdornment } from 'material-ui/Input';
-
+import Icon from 'material-ui/Icon';
 import './SignUp.css';
 
 
@@ -13,6 +13,7 @@ const styles = theme => ({
   container: {
     display: 'flex',
     flexWrap: 'wrap',
+    
   },
   textField: {
     marginLeft: theme.spacing.unit,
@@ -23,9 +24,17 @@ const styles = theme => ({
   menu: {
     width: 200,
   },
-  TextColor:{
-    color: '#fff'
-  },
+    button: {
+        width: 450,
+        height: 80,
+
+    },
+    rightIcon: {
+        marginLeft: theme.spacing.unit,
+    },
+    iconSmall: {
+        fontSize: 15,
+    },
 });
 
 
@@ -39,6 +48,7 @@ class TextFields extends React.Component {
     const { classes } = this.props;
 
     return (
+      <div>
       <form className={classes.container} noValidate autoComplete="off">
   
         <TextField
@@ -108,6 +118,13 @@ class TextFields extends React.Component {
         />
 
       </form>
+                <div className = "buttonPadding" >
+            <Button variant="raised" color="primary" className={classes.button}>
+              SignUp
+              <Icon className={classes.rightIcon}>send</Icon>
+            </Button>
+          </div>
+      </div>
     );
   }
 }

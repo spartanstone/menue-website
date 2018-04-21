@@ -55,3 +55,12 @@ margin-top: 150px;
 lable{
 	color:#fff ! important;
 }
+.MuiFormHelperText-root-100{
+	color: rgba(255,255, 255, 0.9)! important;
+}
+.MuiSvgIcon-root-94{
+	color:#fff;
+}
+.buttonPadding{
+	padding-top: 18px;
+}

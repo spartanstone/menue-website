@@ -19,9 +19,9 @@ const styles = theme => ({
         width: 400,
     },
     button: {
-        margin: theme.spacing.unit,
-        width: 300,
-        height: 60,
+
+        width: 450,
+        height: 80,
 
 
 
@@ -76,7 +76,7 @@ class LoginForm extends Component {
               helperText="Please Enter Your Password"
           />
 
-          <div >
+          <div className = "buttonPadding">
             <Button variant="raised" color="primary" className={classes.button}>
               Login
               <Icon className={classes.rightIcon}>send</Icon>

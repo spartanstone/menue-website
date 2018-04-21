@@ -18,3 +18,24 @@ label {
 .MuiTab-label-20{
 	color:rgba(255,255,255,0.7) ! important;
 }
+.MuiButton-raised-115{
+	background-color:rgba(102, 102, 255,0.6) ! important;
+}
+.MuiButton-root-110{
+	font-size:1.3rem! important;
+	font-weight: 200 ! important;
+	color: rgba(255,255, 255, 0.9)! important;
+	text-transform: capitalize ! important;
+}
+.MuiFormLable-focused-78{
+	color: rgba(255,255, 255, 0.9)! important;
+}
+.MuiFormHelperText-root-100{
+	color: rgba(255,255, 255, 0.9)! important;
+}
+.MuiSvgIcon-root-94{
+	color:#fff;
+}
+.buttonPadding{
+	padding-top: 18px;
+}

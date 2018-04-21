@@ -3,8 +3,11 @@ import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
 import MenuItem from 'material-ui/Menu/MenuItem';
 import TextField from 'material-ui/TextField';
-import {AccountCircle,Email} from '@material-ui/icons';
+import {AccountCircle,Email,Lock} from '@material-ui/icons';
 import Input, { InputAdornment } from 'material-ui/Input';
+
+import './SignUp.css';
+
 
 const styles = theme => ({
   container: {
@@ -42,7 +45,6 @@ class TextFields extends React.Component {
           required
           id="FirstNameInput"
           label="First Name"
-          lableStyle={classes.TextColor}
           className={classes.textField}
           helperText="Please Enter your First Name "
           margin="normal"
@@ -91,10 +93,18 @@ class TextFields extends React.Component {
           required
           id="password-input"
           label="Password"
+          helperText="Please Enter Your Password"
           className={classes.textField}
           type="password"
           autoComplete="current-password"
           margin="normal"
+          InputProps={{
+          startAdornment: (
+            <InputAdornment position="start">
+              <Lock />
+            </InputAdornment>
+          ),
+           }}
         />
 
       </form>

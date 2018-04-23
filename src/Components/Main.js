@@ -1,14 +1,16 @@
 import React from 'react';
-import {Switch,Route} from 'react-router-dom';
+import {Switch,Route,BrowserRouter} from 'react-router-dom';
 
 import Login from './Login/Login';
+import Navbar from './Navbar/Navbar';
 
 const Main = () => (
-    <main>
+    <BrowserRouter>
         <Switch>
-            <Route exact path = '/' component="{Login}"/>
+            <Route exact path = '/' component={Login}/>
+            <Route exact path = '/nav' component={Navbar}/>
 
         </Switch>
-    </main>
-);
+    </BrowserRouter>
+)
 export default Main;

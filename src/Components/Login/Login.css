@@ -53,5 +53,11 @@ margin-top: 150px;
 	color: rgba(255,255, 255, 0.9)! important;
 }
 lable{
-	color:#fff ! important;
+    color: rgba(255,255, 255, 0.9)! important;
+}
+.ButtonPadding{
+    padding-top:20px ;
+}
+.MuiFormHelperText-root-106{
+    color: rgba(255,255, 255, 0.9)! important;
 }

@@ -76,7 +76,7 @@ class LoginForm extends Component {
               helperText="Please Enter Your Password"
           />
 
-          <div >
+          <div className="ButtonPadding" >
             <Button variant="raised" color="primary" className={classes.button}>
               Login
               <Icon className={classes.rightIcon}>send</Icon>

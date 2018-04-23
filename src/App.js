@@ -1,15 +1,11 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
-import Button from 'material-ui/Button';
+import Main from "./Components/Main";
 
-class App extends Component {
-  render() {
-    return (
-      
-
-    );
-  }
-}
+const App = () =>(
+    <div>
+      <Main/>
+    </div>
+)
 
 export default App;

@@ -53,8 +53,9 @@ margin-top: 150px;
 	color: rgba(255,255, 255, 0.9)! important;
 }
 lable{
-	color:#fff ! important;
+    color: rgba(255,255, 255, 0.9)! important;
 }
+<<<<<<< HEAD
 .MuiFormHelperText-root-100{
 	color: rgba(255,255, 255, 0.9)! important;
 }
@@ -64,3 +65,11 @@ lable{
 .buttonPadding{
 	padding-top: 18px;
 }
+=======
+.ButtonPadding{
+    padding-top:20px ;
+}
+.MuiFormHelperText-root-106{
+    color: rgba(255,255, 255, 0.9)! important;
+}
+>>>>>>> origin/master

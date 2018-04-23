@@ -3,17 +3,13 @@ import './Login.css';
 import LoginTab from './LoginTab';
 
 
-class Login extends Component {
+const Login = () =>(
+    <div className = "backGround">
+        <div>
+            <LoginTab></LoginTab>
+        </div>
+    </div>
+)
 
-  render() {
-    return (
-	<div className = "backGround">
-      <div>
-      <LoginTab></LoginTab>
 
-      </div>
-  	</div>
-    );
-  }
-}
 export default Login;
